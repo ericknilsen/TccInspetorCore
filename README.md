@@ -20,7 +20,7 @@ The deployment in AWS is done as follows:
 ```shell
 $ git clone https://github.com/ericknilsen/TccInspetorCore
 ```
-- Compress the content in _lambda_ directory in a _.zip_ file format
+- Compress the content in _lambda_ directory to a _.zip_ file format
 - Create a Lambda function
 - Upload the _.zip_ file in the function code
 - Create a Gateway API for the function

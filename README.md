@@ -31,7 +31,7 @@ $ git clone https://github.com/ericknilsen/TccInspetorCore
 ```
 - Enable API CORS
 - Deploy the API
-- Edit the Lambda function code
+- Edit the Lambda function's code
 - Rename the file _credentials_example.json_ to _credentials.json_ and insert the access data as follows:
 ```json
 {

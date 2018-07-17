@@ -44,7 +44,7 @@ $ git clone https://github.com/ericknilsen/TccInspetorCore
 ```
 
 
-### Development Evironment
+### Development Environment
 
 - Clone the repository:
 ```shell

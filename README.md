@@ -13,26 +13,26 @@
 
 ### Deployment Environment
 
-A implantação na AWS é feita da seguinte forma:
+The deployment in AWS is done as follows:
 
-- Crie um Bucket no S3 e inclua um diretório para armazenar os documentos que devem ser verificados
-- Baixe o repositório:
+- Create a Bucket in S3 and include a directory to store the documents that need to be checked
+- Clone the repository:
 ```shell
 $ git clone https://github.com/ericknilsen/TccInspetorCore
 ```
-- Comprima o conteúdo do diretório _lambda_ no formato _.zip_
-- Crie uma função Lambda
-- Faça o upload do arquivo _.zip_ criado no código da função
-- Crie uma API Gateway para a função
-- Adicione um método GET na API
-- Navegue para _Integration Request -> Mapping Templates_ e adicione um Content-Type _application/json_ com o seguinte conteúdo:
+- Compress the content in _lambda_ directory in a _.zip_ file format
+- Create a Lambda function
+- Upload the _.zip_ file in the function code
+- Create a Gateway API for the function
+- Add a GET method in the API
+- Navigate to _Integration Request -> Mapping Templates_ and add a Content-Type _application/json_ with the following content:
 ```json
 { "file": "$input.params('file')" }
 ```
-- Habilite o CORS da API
-- Faça o deploy da API
-- Edite o código da função Lambda
-- Renomeie o arquivo _credentials_example.json_ para _credentials.json_ e insira os dados de acesso:
+- Enable API CORS
+- Deploy the API
+- Edit the Lambda function code
+- Rename the file _credentials_example.json_ to _credentials.json_ and insert the access data as follows:
 ```json
 {
   "bucketName": "BUCKET-NAME",
@@ -46,16 +46,16 @@ $ git clone https://github.com/ericknilsen/TccInspetorCore
 
 ### Development Evironment
 
-- Baixe o repositório:
+- Clone the repository:
 ```shell
 $ git clone https://github.com/ericknilsen/TccInspetorCore
 ```
-- Crie um arquivo _lambda/main.py_ para testar localmente a aplicação com o seguinte conteúdo:
+- Criate the file _lambda/main.py_ to test the application locally with the following content:
 ```python
 
 ```
 
-- Execute o programa:
+- Run the program:
 ```shell
 $ python main.py
 ```

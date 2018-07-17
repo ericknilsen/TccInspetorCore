@@ -22,7 +22,7 @@ $ git clone https://github.com/ericknilsen/TccInspetorCore
 ```
 - Compress the content in _lambda_ directory to a _.zip_ file format
 - Create a Lambda function
-- Upload the _.zip_ file in the function code
+- Upload the _.zip_ file in the function's code
 - Create a Gateway API for the function
 - Add a GET method in the API
 - Navigate to _Integration Request -> Mapping Templates_ and add a Content-Type _application/json_ with the following content:

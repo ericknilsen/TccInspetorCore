@@ -2,7 +2,7 @@
 
  - É uma Aplicação para verificar se um documento segue o padrão da ABNT. Corresponde ao componente TccInspetorCore da arquitetura abaixo:
  
- ![]https://github.com/ericknilsen/TccInspetorCore/blob/master/docs/Arquitetura_TccInspetor.png)
+ ![](https://github.com/ericknilsen/TccInspetorCore/blob/master/docs/Arquitetura_TccInspetor.png)
 
 - Desenvolvida na linguagem Python.
 - Está implantada na AWS como uma função Lambda e disponibilizada como uma API REST pela AWS API Gateway.

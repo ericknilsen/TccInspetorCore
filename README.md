@@ -1,15 +1,17 @@
 # TccInspetorCore
 
- - É uma Aplicação para verificar se um documento segue o padrão da ABNT. Corresponde ao componente TccInspetorCore da arquitetura abaixo:
+- Application to check if a given document follows the Brazilian standard for academic papers (ABNT). Corresponds to the **TccInspetorCore** component of the following architecture:
+
+[//]: # (- É uma Aplicação para verificar se um documento segue o padrão da ABNT. Corresponde ao componente TccInspetorCore da arquitetura abaixo:)
  
  ![](https://github.com/ericknilsen/TccInspetorCore/blob/master/docs/Arquitetura_TccInspetor.png)
 
-- Desenvolvida na linguagem Python.
-- Está implantada na AWS como uma função Lambda e disponibilizada como uma API REST pela AWS API Gateway.
+- It was developed in Python.
+- It is deployed to AWS as a Lambda function and made available as a REST API by the AWS API Gateway.
 
-## Configuração
+## Setup
 
-### Implantação
+### Deployment Environment
 
 A implantação na AWS é feita da seguinte forma:
 
@@ -42,7 +44,7 @@ $ git clone https://github.com/ericknilsen/TccInspetorCore
 ```
 
 
-### Desenvolvimento
+### Development Evironment
 
 - Baixe o repositório:
 ```shell

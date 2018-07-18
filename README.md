@@ -1,6 +1,6 @@
 # TccInspetorCore
 
-- Application to check if a given document follows the Brazilian standard for academic papers (ABNT). Corresponds to the **TccInspetorCore** component of the following architecture:
+- Application to check if a given document follows the Brazilian standard for academic papers (ABNT). It corresponds to the **TccInspetorCore** component of the following architecture:
 
 [//]: # (- É uma Aplicação para verificar se um documento segue o padrão da ABNT. Corresponde ao componente TccInspetorCore da arquitetura abaixo:)
  
